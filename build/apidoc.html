@@ -72,45 +72,18 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.post">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.post
-            <span class="apidocSignatureSpan">(name, func)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.pre">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.pre
-            <span class="apidocSignatureSpan">(name, func)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.toMapping">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.toMapping
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.validate">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.validate
-            <span class="apidocSignatureSpan">(doc, partial)</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.connect">
             function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connect
             <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.connection">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connection
+            <span class="apidocSignatureSpan">(host)</span>
             </a>
 
         </li>
@@ -138,6 +111,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.isConnected">
             function <span class="apidocSignatureSpan">elasticsearch-odm.</span>isConnected
             <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.missing_argument">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>missing_argument
+            <span class="apidocSignatureSpan">(path)</span>
             </a>
 
         </li>
@@ -174,6 +156,24 @@
             <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.status">
             function <span class="apidocSignatureSpan">elasticsearch-odm.</span>status
             <span class="apidocSignatureSpan">(type)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validation">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validation
+            <span class="apidocSignatureSpan">(instance, errors)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validator">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validator
+            <span class="apidocSignatureSpan">(property, reason)</span>
             </a>
 
         </li>
@@ -223,6 +223,12 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">elasticsearch-odm.</span>utils</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">elasticsearch-odm.</span>validation.prototype</span>
 
         </li>
 
@@ -281,58 +287,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.post">module elasticsearch-odm.Schema.prototype.post</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.post.post">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>post
-            <span class="apidocSignatureSpan">(name, func)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.pre">module elasticsearch-odm.Schema.prototype.pre</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.pre.pre">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>pre
-            <span class="apidocSignatureSpan">(name, func)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.toMapping">module elasticsearch-odm.Schema.prototype.toMapping</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.toMapping.toMapping">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>toMapping
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.validate">module elasticsearch-odm.Schema.prototype.validate</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.Schema.prototype.validate.validate">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>validate
-            <span class="apidocSignatureSpan">(doc, partial)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.client">module elasticsearch-odm.client</a><ol>
 
         <li>
@@ -346,26 +300,22 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.connect">module elasticsearch-odm.connect</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.connection">module elasticsearch-odm.connection</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.connect.connect">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connect
-            <span class="apidocSignatureSpan">(options)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.connection.connection">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connection
+            <span class="apidocSignatureSpan">(host)</span>
             </a>
 
         </li>
 
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.createIndex">module elasticsearch-odm.createIndex</a><ol>
-
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.createIndex.createIndex">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>createIndex
-            <span class="apidocSignatureSpan">(index, mappings)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.connection.super_">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.connection.</span>super_
+            <span class="apidocSignatureSpan">(message)</span>
             </a>
 
         </li>
@@ -569,19 +519,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.isConnected">module elasticsearch-odm.isConnected</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.isConnected.isConnected">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>isConnected
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.logger">module elasticsearch-odm.logger</a><ol>
 
         <li>
@@ -763,13 +700,35 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.missing_argument">module elasticsearch-odm.missing_argument</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.missing_argument.missing_argument">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>missing_argument
+            <span class="apidocSignatureSpan">(path)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.missing_argument.super_">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.missing_argument.</span>super_
+            <span class="apidocSignatureSpan">(message)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.model">module elasticsearch-odm.model</a><ol>
 
         <li>
 
             <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.model.model">
             function <span class="apidocSignatureSpan">elasticsearch-odm.</span>model
-            <span class="apidocSignatureSpan">(modelName, schema)</span>
+            <span class="apidocSignatureSpan">(document)</span>
             </a>
 
         </li>
@@ -937,19 +896,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.removeIndex">module elasticsearch-odm.removeIndex</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.removeIndex.removeIndex">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>removeIndex
-            <span class="apidocSignatureSpan">(index)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.schema_types">module elasticsearch-odm.schema_types</a><ol>
 
         <li>
@@ -1056,32 +1002,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.schema_types.StringType">
             function <span class="apidocSignatureSpan">elasticsearch-odm.schema_types.</span>StringType
             <span class="apidocSignatureSpan">(options)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.stats">module elasticsearch-odm.stats</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.stats.stats">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>stats
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.status">module elasticsearch-odm.status</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.status.status">
-            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>status
-            <span class="apidocSignatureSpan">(type)</span>
             </a>
 
         </li>
@@ -1434,6 +1354,63 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.validation">module elasticsearch-odm.validation</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validation.validation">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validation
+            <span class="apidocSignatureSpan">(instance, errors)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validation.super_">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.validation.</span>super_
+            <span class="apidocSignatureSpan">(message)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.validation.prototype">module elasticsearch-odm.validation.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validation.prototype.toString">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.validation.prototype.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.elasticsearch-odm.validator">module elasticsearch-odm.validator</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validator.validator">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validator
+            <span class="apidocSignatureSpan">(property, reason)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.elasticsearch-odm.validator.super_">
+            function <span class="apidocSignatureSpan">elasticsearch-odm.validator.</span>super_
+            <span class="apidocSignatureSpan">(message)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -1479,154 +1456,6 @@ var Car = elasticsearch.model(&#x27;Car&#x27;, carSchema);
 ## API Reference
 - [Core](#core)
 ...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.post" id="apidoc.element.elasticsearch-odm.Schema.prototype.post">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.post
-        <span class="apidocSignatureSpan">(name, func)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Schema.prototype.post = function (name, func) {
-  this.hooks.post.apply(this.hooks, arguments);
-  return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.pre" id="apidoc.element.elasticsearch-odm.Schema.prototype.pre">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.pre
-        <span class="apidocSignatureSpan">(name, func)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Schema.prototype.pre = function (name, func) {
-  this.hooks.pre.apply(this.hooks, arguments);
-  return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.toMapping" id="apidoc.element.elasticsearch-odm.Schema.prototype.toMapping">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.toMapping
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Schema.prototype.toMapping = function () {
-  var properties = {};
-
-  var checkLeaf = function(obj, path){
-    _.forOwn(obj, function(v, k){
-      var currentPath = path ? path + &#x27;.&#x27; + k : k;
-      if(v.type){
-        var field = {type: v.type.esType};
-        // we extend the type definition with any user supplied options.
-        // these options can be any options listed for Elasticsearch Core Types.
-        // see https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-core-types.html
-        var defaults = {};
-
-        // NOTE: This is opinionated. Setting to not_analyzed doesn&#x27;t
-        // allow full text search. But since we are trying to be like Mongoose
-        // we assume this is most helpful to users as a default. This option
-        // can still be overridden in the schema.
-        if(v.type.jsType === String) defaults.index = &#x27;not_analyzed&#x27;;
-
-        _.assign(field, defaults, v.options);
-        dot.str(currentPath, field, properties);
-      }else{
-        // If there is no type, then this is a nested object.
-        // Build an Elasticsearch object mapping with nested properties.
-        dot.str(currentPath, {type: &#x27;object&#x27;}, properties);
-        checkLeaf(v, currentPath + &#x27;.properties&#x27;);
-      }
-    });
-  };
-
-  checkLeaf(this.fields);
-
-  return {
-    properties: properties
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.validate" id="apidoc.element.elasticsearch-odm.Schema.prototype.validate">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>Schema.prototype.validate
-        <span class="apidocSignatureSpan">(doc, partial)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">Schema.prototype.validate = function (doc, partial) {
-  var errs = [];
-  var self = this;
-
-  var compareWithOptions = function(field, fieldType, path){
-    if(field){
-      if(fieldType.type.compare(field) === false){
-        errs.push(new ValidatorError(path, &#x22;Value &#x27;&#x22; + field + &#x22;&#x27; Not of type &#x27;&#x22; + fieldType.type.esType + &#x27;&#x22;.&#x27;));
-      }
-    }else{
-      if(fieldType.options.required &#x26;&#x26; !partial){
-        errs.push(new ValidatorError(path, &#x27;Required field is missing.&#x27;));
-      }
-    }
-  };
-
-  var checkType = function(fieldType, path){
-    var docField = dot.pick(path, doc);
-    // check if it&#x27;s an array of items or a single value.
-    // check all elements in the array if so.
-    if(_.isArray(docField)){
-      _.forEach(docField, function(v){
-        compareWithOptions(v, fieldType, path);
-      });
-    }else{
-      compareWithOptions(docField, fieldType, path);
-    }
-  };
-
-  var checkLeaf = function(obj, path){
-    _.forOwn(obj, function(v, k){
-      // build a dot notation path to be used with &#x27;dot-object&#x27;
-      var currentPath = path ? path + &#x27;.&#x27; + k : k;
-
-      // if a leaf contains a type property, then it&#x27;s a type definition
-      // otherwise it&#x27;s a nested document.
-      if(v.type){
-        if(_.isPlainObject(v.type) &#x26;&#x26; v.type.type){
-          currentPath = currentPath + &#x27;.type&#x27;;
-          v = v.type;
-        }
-        checkType(v, currentPath);
-      }else{
-        checkLeaf(v, currentPath);
-      }
-    });
-  };
-
-  checkLeaf(self.fields);
-
-  if(errs.length){
-    return new ValidationError(self, errs);
-  }else{
-    void 0;
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -1689,6 +1518,30 @@ elasticsearch.<span class="apidocCodeKeywordSpan">connect</span>(&#x27;my-index&
 ```
 Example (using a [schema](#schemas)):
 ...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.connection" id="apidoc.element.elasticsearch-odm.connection">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connection
+        <span class="apidocSignatureSpan">(host)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ConnectionError(host){
+  var message;
+  if(host){
+    message = &#x27;No connection can be established to Elasticsearch at &#x27; + host;
+  }else{
+    message = &#x27;No connection has been established to Elasticsearch.&#x27;;
+  }
+  ElasticsearchError.call(this, message);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;ConnectionError&#x27;;
+  this.host = host || &#x27;&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -1757,6 +1610,24 @@ Example (using a [schema](#schemas)):
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isConnected(){
   return CONNECTED;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.missing_argument" id="apidoc.element.elasticsearch-odm.missing_argument">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>missing_argument
+        <span class="apidocSignatureSpan">(path)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MissingArgumentError(path){
+  ElasticsearchError.call(this, &#x27;Missing argument &#x22;&#x27; + path + &#x27;&#x22;.&#x27;);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;MissingArgumentError&#x27;;
+  this.path = path;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1946,6 +1817,47 @@ if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
 return db.client.indices.create({
 ...</pre></li>
     </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validation" id="apidoc.element.elasticsearch-odm.validation">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validation
+        <span class="apidocSignatureSpan">(instance, errors)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ValidationError(instance, errors) {
+  ElasticsearchError.call(&#x27;Validation failed&#x27;);
+  this.stack = new Error().stack;
+  this.name = &#x27;ValidationError&#x27;;
+  this.errors = errors || [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validator" id="apidoc.element.elasticsearch-odm.validator">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validator
+        <span class="apidocSignatureSpan">(property, reason)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ValidatortError(property, reason){
+  var message = &#x22;Validator failed for property &#x27;&#x22;+ property + &#x22;&#x27;&#x22;;
+  if(reason) message = message + &#x22; &#x22; + reason;
+
+  ElasticsearchError.call(this, message);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;ValidatorError&#x27;;
+  this.property = property;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
 
 
 
@@ -2236,242 +2148,6 @@ Model.prototype.toObject = function() {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.post" id="apidoc.module.elasticsearch-odm.Schema.prototype.post">module elasticsearch-odm.Schema.prototype.post</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.post.post" id="apidoc.element.elasticsearch-odm.Schema.prototype.post.post">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>post
-        <span class="apidocSignatureSpan">(name, func)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">post = function (name, func) {
-  this.hooks.post.apply(this.hooks, arguments);
-  return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-**Post Hooks**
-
-Same conventions as Mongoose. Does not have a done() callback. Executed after the hooked method. The first argument is the current
- document which may or may not be a document instance (eg. post remove only receives the raw object as the document no longer exists
-).
-
-```js
-var schema = new elasticsearch.Schema(...);
-schema.<span class="apidocCodeKeywordSpan">post</span>(&#x27;remove&#x27;, function(document){
-  console.log(document);
-});
-```
-
-#### Static and Instance Methods
-
-Add methods to your schema with the same convention as Mongoose.
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.pre" id="apidoc.module.elasticsearch-odm.Schema.prototype.pre">module elasticsearch-odm.Schema.prototype.pre</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.pre.pre" id="apidoc.element.elasticsearch-odm.Schema.prototype.pre.pre">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>pre
-        <span class="apidocSignatureSpan">(name, func)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">pre = function (name, func) {
-  this.hooks.pre.apply(this.hooks, arguments);
-  return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-**Pre Hooks**
-
-Same conventions as Mongoose. Function takes a done() callback that must be called when your function is finished. `this` is scoped
- to the current document. assing an Error to done() will cancel the current operation. For example, in a pre &#x27;save&#x27; hook
-, passing an error to done() will cause the document not to be saved and will return your error to the save() callers rejection
-handler.
-
-```js
-var schema = new elasticsearch.Schema(...);
-schema.<span class="apidocCodeKeywordSpan">pre</span>(&#x27;save&#x27;, function(done){
-  console.log(this); // this = the current document
-  done(); // OR done(new Error(&#x27;bad document&#x27;));
-});
-```
-
-**Post Hooks**
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.toMapping" id="apidoc.module.elasticsearch-odm.Schema.prototype.toMapping">module elasticsearch-odm.Schema.prototype.toMapping</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.toMapping.toMapping" id="apidoc.element.elasticsearch-odm.Schema.prototype.toMapping.toMapping">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>toMapping
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toMapping = function () {
-  var properties = {};
-
-  var checkLeaf = function(obj, path){
-    _.forOwn(obj, function(v, k){
-      var currentPath = path ? path + &#x27;.&#x27; + k : k;
-      if(v.type){
-        var field = {type: v.type.esType};
-        // we extend the type definition with any user supplied options.
-        // these options can be any options listed for Elasticsearch Core Types.
-        // see https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-core-types.html
-        var defaults = {};
-
-        // NOTE: This is opinionated. Setting to not_analyzed doesn&#x27;t
-        // allow full text search. But since we are trying to be like Mongoose
-        // we assume this is most helpful to users as a default. This option
-        // can still be overridden in the schema.
-        if(v.type.jsType === String) defaults.index = &#x27;not_analyzed&#x27;;
-
-        _.assign(field, defaults, v.options);
-        dot.str(currentPath, field, properties);
-      }else{
-        // If there is no type, then this is a nested object.
-        // Build an Elasticsearch object mapping with nested properties.
-        dot.str(currentPath, {type: &#x27;object&#x27;}, properties);
-        checkLeaf(v, currentPath + &#x27;.properties&#x27;);
-      }
-    });
-  };
-
-  checkLeaf(this.fields);
-
-  return {
-    properties: properties
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-- [`.find(Object/String match, Object queryOptions)`](#findobjectstring-match-object-queryoptions---document)
-- [`.findById(String id, Object queryOptions)`](#findbyidstring-id-object-queryoptions---document)
-- [`.findByIds(Array ids, Object queryOptions)`](#findbyidsarray-ids-object-queryoptions---document)
-- [`.findOne(Object/String match, Object queryOptions)`](#findoneobjectstring-match-object-queryoptions---document)
-- [`.findAndRemove(Object/String match, Object queryOptions)`](#findandremoveobjectstring-match-object-queryoptions---object)
-- [`.findOneAndRemove(Object/String match, Object queryOptions)`](#findoneandremoveobjectstring-match-object-queryoptions---object
-)
-- [`.makeInstance(Object data)`](#makeinstanceobject-data---document)
-- [`.<span class="apidocCodeKeywordSpan">toMapping</span>()`](#tomapping)
-- [Query Options](#query-options)
-- [`page &#x26; per_page`](#page--per_page)
-- [`fields`](#fields)
-- [`sort`](#sort)
-- [`q`](#q)
-- [`must`](#must)
-- [`not`](#mot)
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.Schema.prototype.validate" id="apidoc.module.elasticsearch-odm.Schema.prototype.validate">module elasticsearch-odm.Schema.prototype.validate</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.Schema.prototype.validate.validate" id="apidoc.element.elasticsearch-odm.Schema.prototype.validate.validate">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.Schema.prototype.</span>validate
-        <span class="apidocSignatureSpan">(doc, partial)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">validate = function (doc, partial) {
-  var errs = [];
-  var self = this;
-
-  var compareWithOptions = function(field, fieldType, path){
-    if(field){
-      if(fieldType.type.compare(field) === false){
-        errs.push(new ValidatorError(path, &#x22;Value &#x27;&#x22; + field + &#x22;&#x27; Not of type &#x27;&#x22; + fieldType.type.esType + &#x27;&#x22;.&#x27;));
-      }
-    }else{
-      if(fieldType.options.required &#x26;&#x26; !partial){
-        errs.push(new ValidatorError(path, &#x27;Required field is missing.&#x27;));
-      }
-    }
-  };
-
-  var checkType = function(fieldType, path){
-    var docField = dot.pick(path, doc);
-    // check if it&#x27;s an array of items or a single value.
-    // check all elements in the array if so.
-    if(_.isArray(docField)){
-      _.forEach(docField, function(v){
-        compareWithOptions(v, fieldType, path);
-      });
-    }else{
-      compareWithOptions(docField, fieldType, path);
-    }
-  };
-
-  var checkLeaf = function(obj, path){
-    _.forOwn(obj, function(v, k){
-      // build a dot notation path to be used with &#x27;dot-object&#x27;
-      var currentPath = path ? path + &#x27;.&#x27; + k : k;
-
-      // if a leaf contains a type property, then it&#x27;s a type definition
-      // otherwise it&#x27;s a nested document.
-      if(v.type){
-        if(_.isPlainObject(v.type) &#x26;&#x26; v.type.type){
-          currentPath = currentPath + &#x27;.type&#x27;;
-          v = v.type;
-        }
-        checkType(v, currentPath);
-      }else{
-        checkLeaf(v, currentPath);
-      }
-    });
-  };
-
-  checkLeaf(self.fields);
-
-  if(errs.length){
-    return new ValidationError(self, errs);
-  }else{
-    void 0;
-  }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    });
-  }
-  return void 0;
-};
-
-Model.prototype.validate = function(doc, partial) {
-  if(this.constructor.model.schema){
-    return this.constructor.model.schema.<span class="apidocCodeKeywordSpan">validate</span>(doc, partial);
-  }
-};
-
-Model.prototype.toObject = function() {
-  return _.cloneDeep(this);
-};
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.elasticsearch-odm.client" id="apidoc.module.elasticsearch-odm.client">module elasticsearch-odm.client</a></h1>
 
 
@@ -2508,110 +2184,46 @@ if(result){
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.connect" id="apidoc.module.elasticsearch-odm.connect">module elasticsearch-odm.connect</a></h1>
+<h1><a href="#apidoc.module.elasticsearch-odm.connection" id="apidoc.module.elasticsearch-odm.connection">module elasticsearch-odm.connection</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.elasticsearch-odm.connect.connect" id="apidoc.element.elasticsearch-odm.connect.connect">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connect
-        <span class="apidocSignatureSpan">(options)</span>
+        <a href="#apidoc.element.elasticsearch-odm.connection.connection" id="apidoc.element.elasticsearch-odm.connection.connection">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>connection
+        <span class="apidocSignatureSpan">(host)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function connect(options){
-  if(isConnected()) return Promise.resolve();
-
-  // can pass just the index name, or a client configuration object.
-  if(_.isString(options)){
-    db.index = options;
-  }else if(_.isObject(options)){
-    if(!options.index) return Promise.reject(new MissingArgumentError(&#x27;options.index&#x27;));
-    if(options.hasOwnProperty(&#x27;syncMapping&#x27;)){
-      syncMapping = options.syncMapping;
-      delete options.syncMapping;
-    }
-    db = _.assign(db, options);
+    <li>description and source-code<pre class="apidocCodePre">function ConnectionError(host){
+  var message;
+  if(host){
+    message = &#x27;No connection can be established to Elasticsearch at &#x27; + host;
   }else{
-    return Promise.reject(new MissingArgumentError(&#x27;options&#x27;));
+    message = &#x27;No connection has been established to Elasticsearch.&#x27;;
   }
-
-  module.exports.client = db.client = Client.makeClient(db);
-
-  return db.client.indices.exists({index: db.index}).then(function(result){
-    //No error - connected
-    CONNECTED = true;
-
-    if(result){
-      return handleMappingQueue();
-    }else{
-      // if the index doesn&#x27;t exist, then create it.
-      return createIndex(db.index).then(handleMappingQueue);
-    }
-  })
-  .then(function(results){
-    return Promise.resolve();
-  });
+  ElasticsearchError.call(this, message);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;ConnectionError&#x27;;
+  this.host = host || &#x27;&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-```js
-var elasticsearch = require(&#x27;elasticsearch-odm&#x27;);
-var Car = elasticsearch.model(&#x27;Car&#x27;);
-var car = new Car({
-  type: &#x27;Ford&#x27;, color: &#x27;Black&#x27;
-});
-elasticsearch.<span class="apidocCodeKeywordSpan">connect</span>(&#x27;my-index&#x27;).then(function(){
-  // be sure to call connect before bootstrapping your app.
-  car.save().then(function(document){
-    console.log(document);
-  });
-});
-```
-Example (using a [schema](#schemas)):
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.createIndex" id="apidoc.module.elasticsearch-odm.createIndex">module elasticsearch-odm.createIndex</a></h1>
-
 
     <h2>
-        <a href="#apidoc.element.elasticsearch-odm.createIndex.createIndex" id="apidoc.element.elasticsearch-odm.createIndex.createIndex">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>createIndex
-        <span class="apidocSignatureSpan">(index, mappings)</span>
+        <a href="#apidoc.element.elasticsearch-odm.connection.super_" id="apidoc.element.elasticsearch-odm.connection.super_">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.connection.</span>super_
+        <span class="apidocSignatureSpan">(message)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function createIndex(index, mappings){
-  if(!index) return Promise.reject(new MissingArgumentError(&#x27;index&#x27;));
-  if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-
-  return db.client.indices.create({
-    index: index,
-    body: mappings || defaultMappings
-  });
+    <li>description and source-code<pre class="apidocCodePre">function ElasticsearchError(message){
+  this.message = message;
+  this.stack = new Error().stack;
+  this.name = &#x27;ElasticsearchError&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-## API Reference
-- [Core](#core)
-- [`.connect(String/Object options)`](#connectstringobject-options---promise)
-- [`new Schema(Object options)`](#new-schemaobject-options---schema)
-- [`.model(String modelName)`](#modelstring-modelname-optionalschema-schema---model)
-- [`.client`](#client---elasticsearch)
-- [`.stats()`](#stats)
-- [`.<span class="apidocCodeKeywordSpan">createIndex</span>(String index, Object mappings)`](#createindexstring-index-object-mappings
-)
-- [`.removeIndex(String index)`](#removeindexstring-index)
-- [Document](#document)
-- [`.save()`](#save-document)
-- [`.remove()`](#remove)
-- [`.update(Object data)`](#updateobject-data---document)
-- [`.set(Object data)`](#setobject-data---document)
-- [`.toObject()`](#toobject)
-...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
@@ -3411,26 +3023,6 @@ if (queryOptions &#x26;&#x26; (queryOptions.page || queryOptions.per_page)) {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.isConnected" id="apidoc.module.elasticsearch-odm.isConnected">module elasticsearch-odm.isConnected</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.isConnected.isConnected" id="apidoc.element.elasticsearch-odm.isConnected.isConnected">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>isConnected
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isConnected(){
-  return CONNECTED;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.elasticsearch-odm.logger" id="apidoc.module.elasticsearch-odm.logger">module elasticsearch-odm.logger</a></h1>
 
 
@@ -3633,72 +3225,65 @@ if (queryOptions &#x26;&#x26; (queryOptions.page || queryOptions.per_page)) {
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.elasticsearch-odm.missing_argument" id="apidoc.module.elasticsearch-odm.missing_argument">module elasticsearch-odm.missing_argument</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.missing_argument.missing_argument" id="apidoc.element.elasticsearch-odm.missing_argument.missing_argument">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>missing_argument
+        <span class="apidocSignatureSpan">(path)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MissingArgumentError(path){
+  ElasticsearchError.call(this, &#x27;Missing argument &#x22;&#x27; + path + &#x27;&#x22;.&#x27;);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;MissingArgumentError&#x27;;
+  this.path = path;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.missing_argument.super_" id="apidoc.element.elasticsearch-odm.missing_argument.super_">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.missing_argument.</span>super_
+        <span class="apidocSignatureSpan">(message)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ElasticsearchError(message){
+  this.message = message;
+  this.stack = new Error().stack;
+  this.name = &#x27;ElasticsearchError&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.elasticsearch-odm.model" id="apidoc.module.elasticsearch-odm.model">module elasticsearch-odm.model</a></h1>
 
 
     <h2>
         <a href="#apidoc.element.elasticsearch-odm.model.model" id="apidoc.element.elasticsearch-odm.model.model">
         function <span class="apidocSignatureSpan">elasticsearch-odm.</span>model
-        <span class="apidocSignatureSpan">(modelName, schema)</span>
+        <span class="apidocSignatureSpan">(document)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function model(modelName, schema){
-  if(!modelName) throw new MissingArgumentError(&#x27;modelName&#x27;);
-  if(schema &#x26;&#x26; !(schema instanceof Schema)) throw new errors.ElasticsearchError(&#x27;Invalid schema for &#x22;&#x27;+modelName+&#x27;&#x22;.&#x27;);
+    <li>description and source-code<pre class="apidocCodePre">function Model(document) {
+  var self = this;
+  _.assign(self, document);
 
-  if(db.models[modelName]){
-
-    // don&#x27;t overwrite schemas on secondary calls.
-    if(schema &#x26;&#x26; _.isEmpty(db.models[modelName].model.schema)){
-      db.models[modelName].model.schema = schema;
-    }
-
-    // return model from cache if it exists.
-    return db.models[modelName];
-  }
-
-  // create a neweable function object.
-  function modelInstance(data){
-    var self = this;
-    // Add any user supplied schema instance methods.
-    if(schema){
-      _.assign(self, schema.methods);
-    }
-    Model.call(self, data);
-  }
-  utils.inherits(modelInstance, Model);
-
-  // add crud/query static functions.
-  _.assign(modelInstance, defaultMethods);
-
-  modelInstance.db = db;
-
-  modelInstance.model = {
-    type: pluralize(modelName).toLowerCase(),
-    name: modelName,
-    constructor: modelInstance
-  };
-
-  if(schema) {
-    modelInstance.model.schema = schema;
-    // Add any user supplied schema static methods.
-    _.assign(modelInstance, schema.statics);
-
-    // User can provide their own type name, default is pluralized.
-    if(schema.options.type) modelInstance.model.type = schema.options.type;
-
-    // Update the mapping asynchronously.
-    var mapping = {};
-    mapping[modelInstance.model.type] = schema.toMapping();
-    mappingQueue.push({type: modelInstance.model.type, mapping: mapping});
-    // If we&#x27;re already connected process the mapping queue.
-    if(isConnected()){
-      handleMappingQueue();
-    }
-  }
-
-  return db.models[modelName] = modelInstance;
+  Object.defineProperty(self, &#x27;isNew&#x27;, {
+    value: !document || !document.id,
+    configurable: false,
+    writable: true
+  });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 ### Quick Start
@@ -4610,45 +4195,6 @@ if (queryOptions &#x26;&#x26; (queryOptions.page || queryOptions.per_page)) {
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.removeIndex" id="apidoc.module.elasticsearch-odm.removeIndex">module elasticsearch-odm.removeIndex</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.removeIndex.removeIndex" id="apidoc.element.elasticsearch-odm.removeIndex.removeIndex">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>removeIndex
-        <span class="apidocSignatureSpan">(index)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function removeIndex(index){
-  if(!index) return Promise.reject(new MissingArgumentError(&#x27;index&#x27;));
-  if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-
-  return db.client.indices.delete({index: index}).catch(function(){});
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-- [Core](#core)
-  - [`.connect(String/Object options)`](#connectstringobject-options---promise)
-  - [`new Schema(Object options)`](#new-schemaobject-options---schema)
-  - [`.model(String modelName)`](#modelstring-modelname-optionalschema-schema---model)
-  - [`.client`](#client---elasticsearch)
-  - [`.stats()`](#stats)
-  - [`.createIndex(String index, Object mappings)`](#createindexstring-index-object-mappings)
-  - [`.<span class="apidocCodeKeywordSpan">removeIndex</span>(String index)`](#removeindexstring-index)
-- [Document](#document)
-  - [`.save()`](#save-document)
-  - [`.remove()`](#remove)
-  - [`.update(Object data)`](#updateobject-data---document)
-  - [`.set(Object data)`](#setobject-data---document)
-  - [`.toObject()`](#toobject)
-- [Model](#model)
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.elasticsearch-odm.schema_types" id="apidoc.module.elasticsearch-odm.schema_types">module elasticsearch-odm.schema_types</a></h1>
 
 
@@ -4828,83 +4374,6 @@ if (queryOptions &#x26;&#x26; (queryOptions.page || queryOptions.per_page)) {
   Type.call(this, options);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.stats" id="apidoc.module.elasticsearch-odm.stats">module elasticsearch-odm.stats</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.stats.stats" id="apidoc.element.elasticsearch-odm.stats.stats">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>stats
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function stats(){
-  if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-  return db.client.indices.stats({index:db.index});
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-```
-## API Reference
-- [Core](#core)
-- [`.connect(String/Object options)`](#connectstringobject-options---promise)
-- [`new Schema(Object options)`](#new-schemaobject-options---schema)
-- [`.model(String modelName)`](#modelstring-modelname-optionalschema-schema---model)
-- [`.client`](#client---elasticsearch)
-- [`.<span class="apidocCodeKeywordSpan">stats</span>()`](#stats)
-- [`.createIndex(String index, Object mappings)`](#createindexstring-index-object-mappings)
-- [`.removeIndex(String index)`](#removeindexstring-index)
-- [Document](#document)
-- [`.save()`](#save-document)
-- [`.remove()`](#remove)
-- [`.update(Object data)`](#updateobject-data---document)
-- [`.set(Object data)`](#setobject-data---document)
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.elasticsearch-odm.status" id="apidoc.module.elasticsearch-odm.status">module elasticsearch-odm.status</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.elasticsearch-odm.status.status" id="apidoc.element.elasticsearch-odm.status.status">
-        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>status
-        <span class="apidocSignatureSpan">(type)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function status(type){
-  if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-
-  var args = {index: db.index};
-  if(type) args.type = type;
-  return db.client.indices.status(args);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-function status(type){
-if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-
-var args = {index: db.index};
-if(type) args.type = type;
-return db.client.indices.<span class="apidocCodeKeywordSpan">status</span>(args);
-}
-
-function createIndex(index, mappings){
-if(!index) return Promise.reject(new MissingArgumentError(&#x27;index&#x27;));
-if(!isConnected()) return Promise.reject(new ConnectionError(db.host));
-
-return db.client.indices.create({
-...</pre></li>
     </ul>
 
 
@@ -5810,6 +5279,117 @@ var elasticsearch = require(&#x27;elasticsearch-odm&#x27;);
     return Reflect.construct(fn, arguments, new.target);
   }
   return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.elasticsearch-odm.validation" id="apidoc.module.elasticsearch-odm.validation">module elasticsearch-odm.validation</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validation.validation" id="apidoc.element.elasticsearch-odm.validation.validation">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validation
+        <span class="apidocSignatureSpan">(instance, errors)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ValidationError(instance, errors) {
+  ElasticsearchError.call(&#x27;Validation failed&#x27;);
+  this.stack = new Error().stack;
+  this.name = &#x27;ValidationError&#x27;;
+  this.errors = errors || [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validation.super_" id="apidoc.element.elasticsearch-odm.validation.super_">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.validation.</span>super_
+        <span class="apidocSignatureSpan">(message)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ElasticsearchError(message){
+  this.message = message;
+  this.stack = new Error().stack;
+  this.name = &#x27;ElasticsearchError&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.elasticsearch-odm.validation.prototype" id="apidoc.module.elasticsearch-odm.validation.prototype">module elasticsearch-odm.validation.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validation.prototype.toString" id="apidoc.element.elasticsearch-odm.validation.prototype.toString">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.validation.prototype.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+  var ret = this.name + &#x27;: &#x27;;
+  var msgs = [];
+
+  Object.keys(this.errors).forEach(function (key) {
+    if (this == this.errors[key]) return;
+    msgs.push(String(this.errors[key]));
+  }, this);
+
+  return ret + msgs.join(&#x27;, &#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.elasticsearch-odm.validator" id="apidoc.module.elasticsearch-odm.validator">module elasticsearch-odm.validator</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validator.validator" id="apidoc.element.elasticsearch-odm.validator.validator">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.</span>validator
+        <span class="apidocSignatureSpan">(property, reason)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ValidatortError(property, reason){
+  var message = &#x22;Validator failed for property &#x27;&#x22;+ property + &#x22;&#x27;&#x22;;
+  if(reason) message = message + &#x22; &#x22; + reason;
+
+  ElasticsearchError.call(this, message);
+  if(Error.captureStackTrace) Error.captureStackTrace(this, arguments.callee);
+  this.name = &#x27;ValidatorError&#x27;;
+  this.property = property;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.elasticsearch-odm.validator.super_" id="apidoc.element.elasticsearch-odm.validator.super_">
+        function <span class="apidocSignatureSpan">elasticsearch-odm.validator.</span>super_
+        <span class="apidocSignatureSpan">(message)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ElasticsearchError(message){
+  this.message = message;
+  this.stack = new Error().stack;
+  this.name = &#x27;ElasticsearchError&#x27;;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
